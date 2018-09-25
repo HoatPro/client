@@ -27,7 +27,7 @@ class Playlist extends Component {
           accessToken expires every one hour.
           In order to get accessToken start "web-api-auth-examples"
         */
-    let accessToken = "BQAD_zrLjc0Y9wKEyKshwz9GVM5esNqKnMtWPQtQOJpkxgEBlIYG1d7-cW44yTXJ0sl1PfCEk7ey1QgrGLnIWwkmhdntjXsHW5SLVTTGXstQKZYY2UkcpgNHZCbQDr5ECNA3koPi3R2yBbIwcHIMUrAvBTtILenJX7cebcnM5Xmqf-iGqW3F7Nra4T8";
+    let accessToken = "BQAcNLD4SUnhW3vr_X7QZ1lqMTwFuBgpUhx_pEmwFx0r_t8eIpLMwv8BtgTHalyBAs0a2Pt7_kc-zJAY-FwKT8rdtxYUuSv1IvIdDEkBtLUX8SeDBR3QpnCErgYkn0wo05nqIFWbBm6B-uNUvf7c0X55ChJDGAwLiOtJNMCYe1V0RWl6O5pgcqFqgPI";
 
     let myOptions = {
       method: "GET",
