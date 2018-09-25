@@ -21,7 +21,7 @@ class Category extends Component {
   showCategory() {
     //-----------API SETUP-----------
     const BASE_URL = "https://api.spotify.com/v1/browse/categories?";
-    let FETCH_URL = BASE_URL + "q=" + this.state.query + "limit=50";
+    let FETCH_URL = BASE_URL + "q=" + this.state.query + "country=VN&offset=0&limit=50";
 
     /*
       accessToken expires every one hour.
