@@ -50,21 +50,6 @@ class App extends Component {
                 activeOnlyWhenExact={true}
               />
               <MenuLink
-                label="Playlist"
-                to="/playlists/:categoryId"
-                activeOnlyWhenExact={true}
-              />
-              <MenuLink
-                label="Tracks"
-                to="/tracks/:playlistId"
-                activeOnlyWhenExact={true}
-              />
-              <MenuLink
-                label="Music"
-                to="/track/:trackId"
-                activeOnlyWhenExact={true}
-              />
-              <MenuLink
                 label="Search"
                 to="/search"
                 activeOnlyWhenExact={true}
