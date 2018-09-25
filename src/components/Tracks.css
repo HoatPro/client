@@ -1,0 +1,14 @@
+.table{
+    border: 10px;
+    font-size: 20px;
+    color:red;
+}
+.table tr:hover{
+    background-color: aqua;
+}
+.table td:hover{
+    background-color: aqua;
+}
+.butonplay{
+       margin-right: 1px;
+}

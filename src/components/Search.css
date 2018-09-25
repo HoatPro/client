@@ -1,0 +1,43 @@
+.Search {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+p{
+    color: white;
+    font-size: 30px;
+
+}
+/* INPUT GROUP STYLING */
+input {
+  padding: 6px 12px;
+  height: 44px;
+  width: 350px;
+  line-height: 44px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 480px;
+  display: block;
+  text-align: center;
+
+  background-color:white;
+  color: #555;
+  font-size: 16px;
+  float: left;
+
+}
+
+button {
+    margin-right: 480px;
+  border-radius: 3px;
+  border: none;
+  height: 44px;
+  width: 50px;
+  cursor: pointer;
+
+}
+
+/* button img {
+  height: 20px;
+  width: 20px;
+} */
