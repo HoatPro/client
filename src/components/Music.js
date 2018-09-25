@@ -22,7 +22,7 @@ class Music extends Component {
               accessToken expires every one hour.
               In order to get accessToken start "web-api-auth-examples"
             */
-    let accessToken = "BQCFrRxwCDLjisQKOHivzyCkkIYGwbXR2XNGog5bIFeayUWaZKRJyus9iA8H1ngbYfVCBWqh8rDwvR9-HyTM2usinqQYTVcbfHL0KFMklFdkDcBQMbYacp0ciCn2UkS5oM-KXg8ElTwCew5qGLsKbJr3APzqsWZXiRFMjyu09CH3HEKipfJmE__gIWU";
+    let accessToken = "BQAiIQh5Rtx4PYQ5sIG3GYxGwlTkOtmZVtkboNKxj7DtKth_ZMSrBHOOgh1_42ynVdGLdzmnlY7FZnBjkAuVKxxAYmw4tmdAzjSTcMgTJ9eioXSm5z_l5c9W0t-FCepxzwTErUAJEU1wqrAfH723j7eUCFRWugS2GhTB67UaQ7Sgpvyqv4uwdukbnXc";
 
     let myOptions = {
       method: "GET",
@@ -76,13 +76,28 @@ class Music extends Component {
                   </thead>
                 <tbody>
 
-                   {this.state.tracks.map((track, index) => <tr key={index}>
+                  {this.state.tracks.map((track, index) =>
+                  {
+                    if (track.preview_url) {
+                     return <tr key={index}>
                         <td>{track.name}</td>
-                          <td>{track.artists[0].name}</td>
+                        <td>{track.artists[0].name}</td>
                         <td>
-                        <audio src={track.preview_url} controls="controls" />
+                          <audio src={track.preview_url} controls="controls" />
                         </td>
-                      </tr>)}
+                      </tr>;
+                    } else {
+                      return <tr key={index}>
+                          <td>{track.name}</td>
+                          <td>{track.artists[0].name}</td>
+                          <td>
+                          Bài hát thuộc bản quyền của nhạc sĩ,không cho phép nghe free.<br />
+                          Nếu yêu thích bạn có thể mua thông qua tài khoản Premium
+                          </td>
+                        </tr>;
+                    }
+                 }
+                  )}
                   </tbody>
                 </table>
               </div>
