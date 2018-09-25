@@ -22,7 +22,7 @@ class Music extends Component {
               accessToken expires every one hour.
               In order to get accessToken start "web-api-auth-examples"
             */
-    let accessToken = "BQCUD9CElc8ygYGocH8AX6LHna0AyjVnzAMGtVVB9Zjzk8a9_Cob78xkPeHHt9B4v9xYETsLCEEh16NOqBU3UWDoAa-Nby4JSkFl_qFdj-fPifxnQ5EPKfdCWK6U6FV7TxVTNahr2F54CM5z7OiczEVU3rAcuVrPnt3lDizimNSZZXw3M_m5uGfm_o0";
+    let accessToken = "BQARd-wT_Kypf-UcGtsmEyj_GAyAgyqwKXPOySolF0EwlDRS3gDKy7o8Xl8m_FB84VHsf8grGKgSzYhJqtosoOhN45Q300W2gJr3p2vryM5lk2eQb61sNir_so-gmmLlQwFM5NmwW2EYFIO5qkjGzZEiodWM1DfmVAQd44YijOB9NE1et-LHhEmS6i0";
 
     let myOptions = {
       method: "GET",
