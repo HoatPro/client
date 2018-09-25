@@ -91,8 +91,7 @@ class Music extends Component {
                           <td>{track.name}</td>
                           <td>{track.artists[0].name}</td>
                           <td>
-                          Bài hát thuộc bản quyền của nhạc sĩ,không cho phép nghe free.<br />
-                          Nếu yêu thích bạn có thể mua thông qua tài khoản Premium
+                          Bài hát thuộc bản quyền của nhạc sĩ,không cho phép nghe free.
                           </td>
                         </tr>;
                     }
