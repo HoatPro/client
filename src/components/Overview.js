@@ -28,7 +28,7 @@ class Overview extends Component {
           accessToken expires every one hour.
           In order to get accessToken start "web-api-auth-examples"
         */
-     let accessToken = "BQAiIQh5Rtx4PYQ5sIG3GYxGwlTkOtmZVtkboNKxj7DtKth_ZMSrBHOOgh1_42ynVdGLdzmnlY7FZnBjkAuVKxxAYmw4tmdAzjSTcMgTJ9eioXSm5z_l5c9W0t-FCepxzwTErUAJEU1wqrAfH723j7eUCFRWugS2GhTB67UaQ7Sgpvyqv4uwdukbnXc";
+     let accessToken = "BQAMsEJhgsiHFJiycuMF_JPUcXBPbXQ8yoKfCv_gdIQ0Npn2_76QcCEnFj5vaudRl_gZyNfGUvan9XChpBEfHynJ79RwVdl2EtZ8fD0Pp3_8PXf-oUA6IyuMIh9TBvi1eihewBshg0tEesXHblGOukqK_aQFMj9VgS-SA3PD4CLGpkYu8_csVS8-xlE";
 
      let myOptions = {
          method: 'GET',
@@ -58,7 +58,7 @@ class Overview extends Component {
           accessToken expires every one hour.
           In order to get accessToken start "web-api-auth-examples"
         */
-        let accessToken = "BQAiIQh5Rtx4PYQ5sIG3GYxGwlTkOtmZVtkboNKxj7DtKth_ZMSrBHOOgh1_42ynVdGLdzmnlY7FZnBjkAuVKxxAYmw4tmdAzjSTcMgTJ9eioXSm5z_l5c9W0t-FCepxzwTErUAJEU1wqrAfH723j7eUCFRWugS2GhTB67UaQ7Sgpvyqv4uwdukbnXc";
+        let accessToken = "BQAMsEJhgsiHFJiycuMF_JPUcXBPbXQ8yoKfCv_gdIQ0Npn2_76QcCEnFj5vaudRl_gZyNfGUvan9XChpBEfHynJ79RwVdl2EtZ8fD0Pp3_8PXf-oUA6IyuMIh9TBvi1eihewBshg0tEesXHblGOukqK_aQFMj9VgS-SA3PD4CLGpkYu8_csVS8-xlE";
 
         let myOptions = {
             method: 'GET',
@@ -104,10 +104,10 @@ class Overview extends Component {
               <div className="section-title">Nhạc Việt Nam</div>
               <div className="related-artists">
                 <a href="" className="related-artist">
-                  <div className="related-artist__img">
+                        <div className="related-artist__load">
                     {this.state.categories.map((category, index) => (
-                      <div key={index}>
-                        <img src={category.icons[0].url} alt="" />
+                                <div key={index} className="related-artist_elm">
+                                    <img src={category.icons[0].url} alt="" />
                         <br />
                         <p>{category.name}</p>
                       </div>

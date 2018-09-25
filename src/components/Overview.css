@@ -4,10 +4,31 @@
     margin-left: 35px;
     margin-bottom: 10px;
 }
+.section-title_load img{
+    width: 200px;
+    height: 200px;
+}
 .section-title_load a{
     margin-top:15px;
-    font-size: 16px;
+    font-size: 13px;
 }
+.related-artist_elm{
+  margin-left: 35px;
+  float: left;
+}
+.related-artist__load img{
+   width: 100px;
+
+}
+.related-artist__load p{
+    font-size: 14px;
+}
+
+
+
+
+
+
 
 
 
