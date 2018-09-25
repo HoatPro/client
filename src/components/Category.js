@@ -21,13 +21,13 @@ class Category extends Component {
   showCategory() {
     //-----------API SETUP-----------
     const BASE_URL = "https://api.spotify.com/v1/browse/categories?";
-    let FETCH_URL = BASE_URL + "q=" + this.state.query + "country=VN&offset=0&limit=50";
+    let FETCH_URL = BASE_URL + "q=" + this.state.query + "country=VN&locale=sv_VN&offset=0&limit=50";
 
     /*
       accessToken expires every one hour.
       In order to get accessToken start "web-api-auth-examples"
     */
-    let accessToken = "BQAcNLD4SUnhW3vr_X7QZ1lqMTwFuBgpUhx_pEmwFx0r_t8eIpLMwv8BtgTHalyBAs0a2Pt7_kc-zJAY-FwKT8rdtxYUuSv1IvIdDEkBtLUX8SeDBR3QpnCErgYkn0wo05nqIFWbBm6B-uNUvf7c0X55ChJDGAwLiOtJNMCYe1V0RWl6O5pgcqFqgPI";
+    let accessToken = "BQCUD9CElc8ygYGocH8AX6LHna0AyjVnzAMGtVVB9Zjzk8a9_Cob78xkPeHHt9B4v9xYETsLCEEh16NOqBU3UWDoAa-Nby4JSkFl_qFdj-fPifxnQ5EPKfdCWK6U6FV7TxVTNahr2F54CM5z7OiczEVU3rAcuVrPnt3lDizimNSZZXw3M_m5uGfm_o0";
 
     let myOptions = {
       method: "GET",
