@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './PlayBack.css';
-
 class PlayBack extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -11,7 +9,6 @@ class PlayBack extends Component {
       playing: false
     }
   }
-
   playAudio(previewUrl) {
     let audio = new Audio(previewUrl);
     if (!this.state.playing) {
@@ -40,9 +37,7 @@ class PlayBack extends Component {
       }
     }
   }
-
   render() {
-
     //const tracks = this.props.tracks;
     const { tracks } = this.props;
 
