@@ -28,7 +28,7 @@ class Overview extends Component {
           accessToken expires every one hour.
           In order to get accessToken start "web-api-auth-examples"
         */
-     let accessToken = "BQCdJd6EYj9i71Kv346WowM66TjaxGPuqcsmfPsMMMldGPVqMHI2uijzRJgRReZ2xef-357BXWmc7AKZ1SPHgVBs07MnMuCSi72PJfNLEmur-61QvM3HVB1hgbiDlRkDV8HBhSUEXdgwUgNv-SzR0wC_QMD537nbj3fAaIdgOf0ow_q06uviHQNxoF0";
+     let accessToken = "BQBKyFJyV4TfuSiXSRJi3wAycovdAfkdH6rS0CuIq6DkHyVtry1bhRx79JNh7nQvfaRphefh8Jn2ZE1hebRHlOHa0LB7wZZwUACZ8QE3SC_jJL1UgtvWtvZbF1K9_UQ83RcewazVauHHJPmmlK4M6NtPAtt81RzSGig3n4mvdIqbmc2AaKBKpy-yUeA";
 
      let myOptions = {
          method: 'GET',
@@ -58,7 +58,7 @@ class Overview extends Component {
           accessToken expires every one hour.
           In order to get accessToken start "web-api-auth-examples"
         */
-        let accessToken = "BQCdJd6EYj9i71Kv346WowM66TjaxGPuqcsmfPsMMMldGPVqMHI2uijzRJgRReZ2xef-357BXWmc7AKZ1SPHgVBs07MnMuCSi72PJfNLEmur-61QvM3HVB1hgbiDlRkDV8HBhSUEXdgwUgNv-SzR0wC_QMD537nbj3fAaIdgOf0ow_q06uviHQNxoF0";
+        let accessToken = "BQBKyFJyV4TfuSiXSRJi3wAycovdAfkdH6rS0CuIq6DkHyVtry1bhRx79JNh7nQvfaRphefh8Jn2ZE1hebRHlOHa0LB7wZZwUACZ8QE3SC_jJL1UgtvWtvZbF1K9_UQ83RcewazVauHHJPmmlK4M6NtPAtt81RzSGig3n4mvdIqbmc2AaKBKpy-yUeA";
 
         let myOptions = {
             method: 'GET',
